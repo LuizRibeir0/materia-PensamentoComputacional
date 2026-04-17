@@ -1,0 +1,17 @@
+INÍCIO
+
+    criar LISTA_ALUNOS com os nomes dos alunos autorizados
+
+    para cada ALUNO da LISTA faça
+
+        ler NOME_ALUNO
+
+        se NOME_ALUNO está na LISTA_ALUNO então
+            mostrar "Entrada permitida para " + NOME_ALUNO
+        senão
+            mostrar "Erro: Nome não encontrado. Entrada negada."
+        fim-se
+
+    fim-para
+
+FIM
